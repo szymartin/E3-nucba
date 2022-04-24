@@ -56,36 +56,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap;
+    list-style: none;
+    margin-right: 10px;
     width: 100%;
-    height: auto;
+    border: solid;
   }
-  
-  .menu i {
-    font-size: 2rem;
-    color: var(--yellow);
-    cursor: pointer;
-  }
-  
-  .item {
-    width: 80%;
-    order: 0;
-    text-transform: uppercase;
-    text-align: center;
+
+   .item {
+       
     }
   .menu .logo {
-    width: 10rem;
+    width: 8rem;
   }
   a{
       color: var(--yellow);
   }
-#click-menu{
-    display: none;
-}
-.menu i:hover{
-    cursor: pointer;
-    background:rgba(255, 254, 254, 0.5);
-}
 .menu .item{
     margin: 0px;
 }
@@ -98,7 +83,6 @@
     justify-content: space-around;
     text-align: center;
     padding: 8rem 2rem;
-    border: solid;
 }
 .img_scaloni{
 width: 45% ;
@@ -120,9 +104,8 @@ width: 45% ;
     height: 65%;
     background-color:var(--blue);
     border-radius: 2rem;
-    gap: 2.3rem;
-   
-  }
+    border: solid;
+}
 button{
     flex-direction: row;
     width: 150px;
