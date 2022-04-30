@@ -62,6 +62,9 @@
     width: 100%;
     
   }
+  .btn__container{
+    display: none;
+  }
 .box__item{
   display: flex;
   justify-content: space-between;
@@ -167,4 +170,38 @@ p{
 }
 i{
   font-size: 60px;
+}
+@media (min-width: 320px) and (max-width: 480px){
+  .btn__container{
+    display:block
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .menu .item{
+    margin: 2px;
+  }
+  .box__item{
+    order: 1;
+    width: 100%;
+    flex-direction: column;
+    position: fixed;
+  top: 80px
+  }
+  .item{
+    width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   
+  }
+  .btn__container:checked + .item{
+    display: block;
+  }
 }
