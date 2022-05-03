@@ -205,12 +205,8 @@ i{
 .input_check{
   display:none;
 }
-  }
   .input_check:checked + .box__item{
     display: block;
-  }
-  .btn__container{
-
   }
   /*arreglar menu responsive/*/
   .box_home{
@@ -225,6 +221,7 @@ i{
     height: 20rem:;
     background-color:var(--blue);
     border-radius: 2rem;
+    text-align: center;
 }
 h1{
   font-size: 25px;
@@ -233,7 +230,10 @@ h1{
 }
 h2{
   font-size: 20px;
-  text-align: start;
+  text-align: center;
+}
+p{
+  margin-top: 13px;
 }
 .text__home{
   margin: 5px;
