@@ -284,4 +284,7 @@ p{
   width: 10rem;
   height: 10rem;
 }
+.card__container{
+  flex-direction: column;
+}
 }
